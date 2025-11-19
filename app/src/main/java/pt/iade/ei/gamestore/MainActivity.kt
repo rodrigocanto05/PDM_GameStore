@@ -13,15 +13,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import pt.iade.ei.gamestore.ui.theme.GameStoreTheme
 
-class MainActivity : ComponentActivity() { // teste comit agora
-    override fun onCreate(savedInstanceState: Bundle?) { //2 teste
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             GameStoreTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Game Store",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
