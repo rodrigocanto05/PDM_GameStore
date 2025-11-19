@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import pt.iade.ei.gamestore.ui.theme.GameStoreTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity() { // teste comit
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
