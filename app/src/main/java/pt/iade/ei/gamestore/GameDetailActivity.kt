@@ -29,6 +29,7 @@ class GameDetailActivity : ComponentActivity() {
                     if (game != null) {
                         GameDetailScreen(
                             game = game,
+                            onBack = { finish() },
                             onBuyItem = { item: GameItem ->
                                 Toast.makeText(
                                     this,
